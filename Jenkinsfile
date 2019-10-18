@@ -28,7 +28,7 @@ pipeline {
             steps{
                 sh './scripts/deploy.sh'
                 input message: 'Has acabado de ver el server? (Click "Proceed" para continuar)'
-                sh './scripst/kill.sh'
+                sh './scripts/kill.sh'
             }
         }
 
