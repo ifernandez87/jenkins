@@ -10,6 +10,7 @@ pipeline {
     environment {
         CI = 'true'
         USERNAME = credentials('USERNAME')
+        USERPASS = credentials('USERPASS')
     }
     
     stages {
