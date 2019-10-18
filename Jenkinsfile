@@ -1,4 +1,5 @@
 pipeline {
+	// Agente (imagen de docker)
     agent {
         docker {
             image 'node:12.4-alpine'
